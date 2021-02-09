@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background: white;
+  color: Black;
+}
+h1{
+  font-family: 'MuseoModerno', cursive;
+  color
+}
+
+h1:hover {
+  font
+}
+
+p{
+  font-family: 'Rokkitt', serif;
+}
+.Plorem{
+  columns: 4 20em;
+  color: Black;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+body {
+  background: red;
+}
+.example-two,
+.example-three,
+.example-four,
+.example-five {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .example-one {
+    transform: rotate(90deg);
+  }
+}
+@media (min-width: 480px) {
+  .example-one {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background: green;
+    color: #fff;
+  }
+  .example-two {
+    display: block;
+    font-size: 0.75em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background: yellow;
+  }
+  .example-three {
+    display: block;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background: black;
+  }
+  .example-three {
+    display: none;
+  }
+  .example-four {
+    display: block;
+  }
+}
+
+@media (min-width: 1281px) {
+  body {
+    background: white;
+  }
+  .example-four {
+    display: none;
+  }
+  .example-five {
+    display: block;
+  }
+}
